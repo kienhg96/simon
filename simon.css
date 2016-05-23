@@ -1,0 +1,126 @@
+*{
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+body{
+	background-color: rgb(230,230,230);
+}
+
+.main{
+	position: absolute;
+	top: 0px; left:0px; right: 0px; bottom: 0px;
+	width: 450px;
+	height: 450px;
+	margin: auto;
+}
+.cir {
+	float: left;
+	height: 50%;
+	width: 50%;
+	border: 10px solid rgb(80,80,80);
+	box-shadow: 10px 10px 10px #888888, 10px 10px 10px #888888;
+	z-index: -1;
+}
+
+.front{
+	position: absolute;
+	width: 50%;
+	height: 50%;
+	left: 25%;
+	top: 25%;
+	z-index: 5;
+	padding: 5% 5% 5% 5%;  
+	background-color: rgb(230,230,230);
+	border-radius: 100%;
+	border: 10px solid rgb(80,80,80);
+	text-align: center;
+}
+#topleft{
+	background-color: rgb(0, 167, 74);
+	border-top-left-radius: 100%
+}
+#topright{
+	border-top-right-radius: 100%;
+	background-color: rgb(9, 74, 143);
+}
+#botleft{
+	border-bottom-left-radius: 100%;
+	background-color: rgb(204, 167, 7);
+}
+#botright{
+	border-bottom-right-radius: 100%;
+	background-color: rgb(159, 15, 23);
+}
+.maintitle{
+	font-family: cursive;
+	font-size: 40px;
+	margin-bottom: 5px;
+}
+.groupbtn{
+	display: inline-block;
+	width: 31%;
+}
+.light{
+	margin: 0px auto;
+	border: 2px solid rgb(80,80,80);
+	background-color: black;
+	width: 10px;
+	height: 10px;
+	border-radius: 100%;
+}
+.button{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width:27px;
+	height: 27px;
+	border-radius: 100%;
+	border: 4px solid rgb(80,80,80);
+}
+.label {
+	font-family: cursive;
+	font-size: 13px;
+}
+#btnStart{
+	background-color: rgb(159, 15, 23);
+}
+#btnStrict{
+	background-color: yellow;
+}
+.onoff{
+	margin-top: 10px;
+}
+.btnOn{
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+	color: rgb(100,100,100);
+	background-color: rgb(20,20,20);
+	border:  4px solid rgb(80,80,80);
+}
+.count {
+	border: 4px solid rgb(80,80,80);
+	border-radius: 4px;
+	font-family: cursive;
+	padding: 5px 5px 5px 5px;
+	height: 40px;
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+.Win {
+	text-align: center;
+	visibility: hidden;
+}
+
+#btnAgain {
+	height: 30px;
+	background-color: rgb(59, 255, 0);
+	color : red;
+	border: 1px solid rgb(59, 255, 0);
+	border-radius: 5px;
+}

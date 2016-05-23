@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<title>Simon Game</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="simon.css">
+		<script type="text/javascript" src="simon.js"></script>
+	</head>
+	<body>
+		<div class="main">
+			<div class="front">
+				<div class="maintitle">Simon<sup style="font-size: 20px;">&reg;</sup></div>
+				<div class="countbtn">
+					<div class="groupbtn">
+						<div class="count"></div>
+						<span class="label">COUNT</span>
+					</div>
+					<div class="groupbtn">
+						<button class="button" id="btnStart"> </button>
+						<span class="label">START</span>
+					</div>
+					<div class="groupbtn">
+						<div class="light"></div>	
+						<button class="button" id="btnStrict"> </button>
+						<span class="label">STRICT</span>
+					</div>
+				</div>
+				<div class="onoff">
+					<button class="btnOn"><i class="fa fa-power-off "></i></button>
+				</div>
+			</div>
+			<div class="cir" id="topleft">
+			</div>
+			<div class="cir" id="topright">
+			</div>
+			<div class="cir" id="botleft">
+			</div>
+			<div class="cir" id="botright">
+			</div>
+		</div>
+		<div class="Win">
+			<h1>Congratulation!</h1>
+			<button id="btnAgain"><b>Play Again</b></button>
+		</div>
+	</body>
+</html>
